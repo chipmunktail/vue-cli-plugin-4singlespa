@@ -1,0 +1,18 @@
+{
+  "name": "vue-cli-plugin-4singlespa",
+  "version": "1.0.0",
+  "description": "for vue single-spa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue",
+    "single-spa",
+    "vue-cli-plugin-singlespa",
+    "micro",
+    "frontend"
+  ],
+  "author": "hjdtl",
+  "license": "ISC"
+}
