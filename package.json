@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-4singlespa",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "for vue single-spa",
   "main": "index.js",
   "scripts": {
