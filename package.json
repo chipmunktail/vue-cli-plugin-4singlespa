@@ -1,10 +1,14 @@
 {
   "name": "vue-cli-plugin-4singlespa",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "for vue single-spa",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hjdtl/vue-cli-plugin-4singlespa"
   },
   "keywords": [
     "vue",
@@ -14,5 +18,9 @@
     "frontend"
   ],
   "author": "hjdtl",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hjdtl/vue-cli-plugin-4singlespa/issues"
+  },
+  "homepage": "https://github.com/hjdtl/vue-cli-plugin-4singlespa#readme"
 }
