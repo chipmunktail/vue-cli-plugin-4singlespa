@@ -6,7 +6,6 @@ module.exports = api => {
   const usesSingleSpa = Boolean(require(api.resolve('package.json')).dependencies['single-spa-vue'])
   const projectName = require(api.resolve('package.json')).name;
 
-
   api.render('./template', {
     isTs,
     usesRouter,
@@ -17,6 +16,10 @@ module.exports = api => {
   })
 
   api.extendPackage({
+    scripts: {
+      'gulp': 'gulp',
+      'micro': 'npm run build && serve --cors -l 5100 ./dist'
+    },
     dependencies: {
       'gulp': '^4.0.2',
     },

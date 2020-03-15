@@ -9,7 +9,7 @@ import utils from '@/utils';
 Vue.prototype.$Utils = utils;
 Vue.config.productionTip = false;
 <% if (usesSingleSpa) { %>
-let vueLifecycles: any
+let vueLifecycles
 if (process.env.NODE_ENV === 'development') {
     // 开发环境直接渲染
     new Vue({
